@@ -1,15 +1,26 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./Nav";
+import Header from "./Header";
 import Footer from "./Footer";
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
+import lava from "../assets/Lava.jpg";
+
+
+
+const styles = {
+    background: {
+        backgroundImage: `url(${lava})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover"
+    }
+};
 
 function PageContainer() {
     return(
         <Router>
-            <div>
+            <div style={styles.background}>
                 <Header />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/portfolio" component={Portfolio} />

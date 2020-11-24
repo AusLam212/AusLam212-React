@@ -18,7 +18,7 @@ const styles = {
     image: {
         width: "100%",
         height: "600px",
-        margin: "0 50px",
+        margin: "0 auto",
         marginBottom: "20px",
         borderRadius: "5px"
     },
@@ -60,7 +60,14 @@ function About() {
                         <li>Javascript</li>
                         <li>Node</li>
                         <li>SQL</li>
+                        <li>Sequelize</li>
                         <li>MongoDB</li>
+                        <li>APIs</li>
+                        <li>Ajax</li>
+                        <li>Express</li>
+                        <li>jQuery</li>
+                        <li>Progressive Web Applicaions</li>
+                        <li>Webpack</li>
                     </ul>
                 </section>
             </div>

@@ -13,7 +13,8 @@ const styles = {
     background: {
         backgroundImage: `url(${lava})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
+        fontFamily: "font-family: 'Bebas Neue', cursive;"
     }
 };
 

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function Nav() {
+
+
+function Header() {
     const location = useLocation();
 
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -12,7 +14,7 @@ function Nav() {
 
 
     return(
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <header className="navbar navbar-expand-lg navbar-light">
             <span className="navbar-brand">Austin Lambert</span>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span className="navbar-toggler-icon"></span>
@@ -37,8 +39,8 @@ function Nav() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </header>
     );
 }
 
-export default Nav;
+export default Header;

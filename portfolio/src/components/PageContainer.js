@@ -9,6 +9,7 @@ import lava from "../assets/Lava.jpg";
 
 
 
+
 const styles = {
     background: {
         backgroundImage: `url(${lava})`,

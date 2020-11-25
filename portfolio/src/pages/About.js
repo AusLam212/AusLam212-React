@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import me from "../assets/DU-WOP.jpg";
 
 const styles = {
@@ -13,7 +14,8 @@ const styles = {
     },
     content:{
         marginTop: "15px",
-        marginBottom: "5px"
+        marginBottom: "15px",
+        paddingbottom: "20px"
     },
     image: {
         width: "100%",
@@ -28,6 +30,7 @@ const styles = {
     },
 }
 
+
 function About() {
     return (
         <main className="container" style={styles.container}>
@@ -36,7 +39,7 @@ function About() {
                 <div className="jumbotron bg-transparent" style={styles.jumbotron}>
                     <h1 className="display-4 text-white">About Me</h1>
                     <hr className="my-4"/>
-                    <p className="text-white">Here you can learn a little bit more about me.</p>
+                    <p className="text-white">Learn a little bit more about me.</p>
                 </div>
                 </section>
             </div>
@@ -69,6 +72,26 @@ function About() {
                         <li>Progressive Web Applicaions</li>
                         <li>Webpack</li>
                     </ul>
+                </section>
+            </div>
+            <div className="row" style={styles.content}>
+                <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
+                    Resume-
+                    <Link to={{ pathname: "https://docs.google.com/document/d/1VCvKsk2X-9qVyTUSzW4_EV9IYD_mzZfTjOEIolBdlSE/edit?usp=sharing" }} target="_blank">
+                        LinkedIn
+                    </Link>
+                </section>
+                <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
+                    LinkedIn-
+                    <Link to={{ pathname: "https://www.linkedin.com/in/austin-lambert-73330919a/" }} target="_blank">
+                        LinkedIn
+                    </Link>
+                </section>
+                <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
+                    Github-
+                    <Link to={{ pathname: "https://github.com/AusLam212" }} target="_blank">
+                        Github
+                    </Link>
                 </section>
             </div>
         </main>

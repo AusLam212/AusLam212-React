@@ -19,7 +19,8 @@ const styles = {
         color: "white"
     },
     title: {
-        textAlign: "center"
+        textAlign: "center",
+        color: "white"
     },
     links: {
         textAlign: "center",
@@ -36,7 +37,7 @@ function ProjectL(props) {
             <div className="col-sm-12 col-md-7">
                 <div className="row" style={styles.title}>
                     <div className="col-12">
-                        <h3>{props.title}s</h3>
+                        <h3>{props.title}</h3>
                     </div>
                 </div>
                 <div className="row" style={styles.text}>
@@ -46,10 +47,11 @@ function ProjectL(props) {
                 </div>
                 <div className="row" style={styles.links}>
                     <div className="col-12">
-                        <Link to={{ pathname: props.url }}>
+                        <Link to={{ pathname: props.url }} target="_blank">
                             {props.title}
                         </Link>
-                        <Link to={{ pathname: props.git }}>
+                        |
+                        <Link to={{ pathname: props.git }} target="_blank">
                             Github Repository
                         </Link>
                     </div>

@@ -44,11 +44,11 @@ function ProjectR(props) {
                 </div>
                 <div className="row" style={styles.links}>
                     <div className="col-12">
-                        <Link to={{ pathname: props.url }}>
+                        <Link to={{ pathname: props.url }} target="_blank">
                             {props.title}
                         </Link>
                         |
-                        <Link to={{ pathname: props.git }}>
+                        <Link to={{ pathname: props.git }} target="_blank">
                             Github Repository
                         </Link>
                     </div>

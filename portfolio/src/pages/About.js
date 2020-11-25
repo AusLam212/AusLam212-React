@@ -71,6 +71,8 @@ function About() {
                         <li>jQuery</li>
                         <li>Progressive Web Applicaions</li>
                         <li>Webpack</li>
+                        <li>Bootstrap 4</li>
+                        <li>Foundation</li>
                     </ul>
                 </section>
             </div>

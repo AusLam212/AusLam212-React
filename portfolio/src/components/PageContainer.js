@@ -21,10 +21,10 @@ const styles = {
 
 function PageContainer() {
     return(
-        <Router>
+        <Router basename="/AusLam212-React">
             <div style={styles.background}>
                 <Header />
-                <Route exact path="/about" component={About} />
+                <Route exact path="/" component={About} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/contact" component={Contact} />
                 <Footer />

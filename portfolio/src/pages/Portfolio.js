@@ -7,6 +7,7 @@ import empdir from "../assets/emp-dir.png";
 import band from "../assets/BandAids.png";
 import budget from "../assets/Budget-PWA.png";
 import password from "../assets/Password.png";
+import pifa from "../assets/PIFA.png";
 
 const styles = {
     jumbotron: {
@@ -50,6 +51,9 @@ function Portfolio() {
             <ProjectR image={budget} alt={"Progressive Budgeting"} title={"Progressive Budgeting"} url={"https://progressive-budgeting.herokuapp.com/"} git={"https://github.com/AusLam212/Progressive-Budgeting-App"}>
                 Progressive Budgeting App is a simple PWA that allows the user to log transactions online and offline.
             </ProjectR>
+            <ProjectL image={pifa} alt={"Pay It Forward Austin"} title={"Pay It Forward Austin"} url={"https://pifa-by-project3.herokuapp.com/"} git={"https://github.com/codyalmand/PIFA"}>
+                Receive and give help to your community with PIFA (Pay It Forward Austin). PIFA uses React, Express, Node, and Sequelize.
+            </ProjectL>
         </main>
     );
 }

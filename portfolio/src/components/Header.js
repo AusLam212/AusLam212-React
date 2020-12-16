@@ -23,7 +23,7 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent" class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}> 
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item dropdown text-light">
-                        <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                             About
                         </Link>
                     </li>

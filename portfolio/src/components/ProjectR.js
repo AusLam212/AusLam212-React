@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const styles = {
     jumbotron: {
@@ -44,13 +43,13 @@ function ProjectR(props) {
                 </div>
                 <div className="row" style={styles.links}>
                     <div className="col-12">
-                        <Link to={{ pathname: props.url }} target="_blank">
+                        <a href={props.url} target="_blank" rel="noreferrer">
                             {props.title}
-                        </Link>
+                        </a>
                         |
-                        <Link to={{ pathname: props.git }} target="_blank">
+                        <a href={props.git} target="_blank" rel="noreferrer">
                             Github Repository
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

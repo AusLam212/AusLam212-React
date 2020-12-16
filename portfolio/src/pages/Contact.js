@@ -12,7 +12,7 @@ const styles = {
         textAlign: "center"
     },
     content:{
-        paddingBottom: "15px",
+        paddingBottom: "300px",
         textAlign: "center",
         color: "white",
         display: "inline-block",
@@ -30,27 +30,21 @@ function Contact() {
                 <div className="jumbotron bg-transparent" style={styles.jumbotron}>
                     <h1 className="display-4 text-white">Contact</h1>
                     <hr className="my-4"/>
-                    <p className="text-white">Feel free to leave a name and an email for me to reach you at.</p>
+                    <p className="text-white">Feel free to reach me at either my email or phone.</p>
                 </div>
                 </section>
             </div>
             <section className="row" style={styles.content}>
                 <div className="col-xs-12">
-                    <form>
-                        <div className="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" className="form-control" id="name" placeholder="Name"/>
-                        </div>
-                        <div className="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" className="form-control" id="email" placeholder="Email"/>
-                        </div>
-                        <div className="form-group">
-                            <label for="message">Message:</label>
-                            <textarea className="form-control" id="message" rows="3"></textarea>
-                        </div>
-                        <button type="submit" className="btn btn-dark">Submit</button>
-                    </form>
+                    <h2>Email:</h2>
+                    <br/>
+                    <div>atlambert11@gmail.com</div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <h2>Phone:</h2>
+                    <br/>
+                    <div>(956)778-2171</div>
                 </div>
             </section>
         </main>

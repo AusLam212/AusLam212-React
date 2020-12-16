@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/AusLam212-React/static/js/main.ae2a5da7.chunk.js",
+    "main.js.map": "/AusLam212-React/static/js/main.ae2a5da7.chunk.js.map",
+    "runtime-main.js": "/AusLam212-React/static/js/runtime-main.a89f86ce.js",
+    "runtime-main.js.map": "/AusLam212-React/static/js/runtime-main.a89f86ce.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/AusLam212-React/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.ad9a0f9a.chunk.js": "/AusLam212-React/static/js/2.ad9a0f9a.chunk.js",
+    "static/js/2.ad9a0f9a.chunk.js.map": "/AusLam212-React/static/js/2.ad9a0f9a.chunk.js.map",
+    "index.html": "/AusLam212-React/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/AusLam212-React/static/css/2.1a02f21c.chunk.css.map",
+    "static/js/2.ad9a0f9a.chunk.js.LICENSE.txt": "/AusLam212-React/static/js/2.ad9a0f9a.chunk.js.LICENSE.txt",
+    "static/media/BandAids.f4b3220f.png": "/AusLam212-React/static/media/BandAids.f4b3220f.png",
+    "static/media/Budget-PWA.2dfc3656.png": "/AusLam212-React/static/media/Budget-PWA.2dfc3656.png",
+    "static/media/DU-WOP.9facf321.jpg": "/AusLam212-React/static/media/DU-WOP.9facf321.jpg",
+    "static/media/Lava.da71364b.jpg": "/AusLam212-React/static/media/Lava.da71364b.jpg",
+    "static/media/PIFA.10ace873.png": "/AusLam212-React/static/media/PIFA.10ace873.png",
+    "static/media/Password.b7c62f03.png": "/AusLam212-React/static/media/Password.b7c62f03.png",
+    "static/media/PixelPicks.15935c27.png": "/AusLam212-React/static/media/PixelPicks.15935c27.png",
+    "static/media/WeatherDash.49982a62.png": "/AusLam212-React/static/media/WeatherDash.49982a62.png",
+    "static/media/emp-dir.2189feeb.png": "/AusLam212-React/static/media/emp-dir.2189feeb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a89f86ce.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.ad9a0f9a.chunk.js",
+    "static/js/main.ae2a5da7.chunk.js"
+  ]
+}

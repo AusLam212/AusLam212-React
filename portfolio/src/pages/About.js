@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import me from "../assets/DU-WOP.jpg";
 
 const styles = {

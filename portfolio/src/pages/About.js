@@ -78,22 +78,19 @@ function About() {
             </div>
             <div className="row" style={styles.content}>
                 <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
-                    Resume-
-                    <Link to={{ pathname: "https://docs.google.com/document/d/1VCvKsk2X-9qVyTUSzW4_EV9IYD_mzZfTjOEIolBdlSE/edit?usp=sharing" }} target="_blank">
-                        LinkedIn
-                    </Link>
+                    <a href="https://docs.google.com/document/d/1VCvKsk2X-9qVyTUSzW4_EV9IYD_mzZfTjOEIolBdlSE/edit?usp=sharing" target="_blank" rel="noreferrer" >
+                        Resume
+                    </a>
                 </section>
                 <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
-                    LinkedIn-
-                    <Link to={{ pathname: "https://www.linkedin.com/in/austin-lambert-73330919a/" }} target="_blank">
+                    <a href="https://www.linkedin.com/in/austin-lambert-73330919a/" target="_blank" rel="noreferrer">
                         LinkedIn
-                    </Link>
+                    </a>
                 </section>
                 <section className="col-sm-12 col-md-4" style={{ color: "white", textAlign: "center" }}>
-                    Github-
-                    <Link to={{ pathname: "https://github.com/AusLam212" }} target="_blank">
+                    <a href="https://github.com/AusLam212" target="_blank" rel="noreferrer">
                         Github
-                    </Link>
+                    </a>
                 </section>
             </div>
         </main>
